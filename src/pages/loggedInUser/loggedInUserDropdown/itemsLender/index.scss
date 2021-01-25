@@ -1,0 +1,59 @@
+.view-profile-page {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    // width: 100%;
+    .view-profile-container {
+      position: absolute;
+      right: 4%;
+    //   width: 16%;
+    // margin-top: 0px;
+      min-width: 250px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 15px;
+      .customer-important-list {
+        padding: 15px 20px;
+        width: 100%;
+        min-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        .important-list-content {
+          width: 100%;
+          min-width: 200px;
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+        }
+        .list-div {
+          display: flex;
+          flex-wrap: wrap;
+          letter-spacing: -0.14px;
+          color: #1a1a1a;
+          font-size: 14px;
+          margin: 10px 0px;
+          font-weight: 400;
+          h4 {
+            margin: 0px;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -0.14px;
+            color: #1a1a1a;
+            padding-left: 15px;
+          }
+        }
+      }
+    }
+  }
+  
+  .user-div {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+  letter-spacing: 0.42px;
+  color: #1A1A1A;
+  text-transform: uppercase;
+  margin: 5px 0px;
+  }
+  

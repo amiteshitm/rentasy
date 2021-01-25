@@ -1,0 +1,22 @@
+.account-container {
+    background: #0014a173;
+    width: 100%;
+    height: 100vh;
+    .Account-menu {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #f0f0f0;
+        .menus {
+            display: flex;
+            justify-content: center;
+            width: 400px;
+            margin: auto;
+            a {
+                margin-right: 20px;
+                text-decoration: none;  
+                color: #000;
+            }
+        }
+    }
+}

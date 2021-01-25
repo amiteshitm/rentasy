@@ -1,0 +1,220 @@
+.register-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  // background: #1a1a1a67 0% 0% no-repeat padding-box;
+  // backdrop-filter: blur(3px);
+  &:hover {
+    cursor: pointer;
+  }
+  .MuiFormControl-root {
+    margin: 10px 0px;
+    background: #fcfafa;
+    border: 2px solid #de032221;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .MuiInput-underline:before {
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // content: "\00a0";
+    // transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    // pointer-events: none;
+    position: absolute;
+    border-bottom: none;
+  }
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: none;
+  }
+  .MuiInput-underline:after {
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // content: "";
+    // transform: scaleX(0);
+    // transition: transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    // pointer-events: none;
+    position: absolute;
+    border-bottom: none;
+  }
+  .MuiFormLabel-root {
+    padding-left: 10px;
+    font-size: 12px;
+    letter-spacing: -0.11px;
+    color: #918888;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    font-size: 12px;
+    letter-spacing: -0.11px;
+    color: #918888;
+  }
+  .MuiInputBase-root {
+    height: 30px;
+  }
+  .PrivateSwitchBase-root-1 {
+    padding: 0px;
+  }
+  .MuiInputBase-input:invalid {
+    box-shadow: none;
+    padding-left: 10px;
+  }
+  .MuiInputBase-input {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  ::placeholder {
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    color: #1a1a1a;
+  }
+  .register-container {
+    width: 25%;
+    height: max-content;
+    margin: 0px auto;
+    min-width: 370px;
+    .register-content {
+
+      padding: 10px 30px;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      flex-direction: column;
+      min-width: 370px;
+      width: 100%;
+      height: 84vh;
+      background: #fcfafa;
+      box-shadow: 0px 2px 4px #00000019;
+      margin-top: 22%;
+      border-radius: 4px;
+      // margin-left: -30px;
+      border-bottom: 5px solid #de0322;
+      
+      .register-div {
+        position: relative;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .register {
+          // border-bottom: 2px solid;
+          padding-bottom: 5px;
+          position: relative;
+          font-size: 24px;
+          font-weight: 600;
+          letter-spacing: -0.24px;
+          color: #1a1a1a;
+        }
+        hr {
+          position: absolute;
+          background: #de0322 0% 0% no-repeat padding-box;
+          border-radius: 1px;
+          width: 12%;
+          bottom: -12px;
+          height: 3px;
+        }
+      }
+      .showPassword{
+        cursor: pointer;
+        color:#DE0322;
+        margin-right: 5px;
+      }
+      .checkbox-password {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: -0.13px;
+        .checkbox-container {
+          .MuiFormControlLabel-label {
+            font-size: 14px;
+            letter-spacing: -0.13px;
+            color: #1a1a1a;
+          }
+        }
+        .termsAndConditions{
+          color: red;
+          margin-left: 5px;
+        }
+        .forgot-password {
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: -0.13px;
+          color: #de0322;
+        }
+      }
+      .login-btn {
+        width: 100%;
+        background: #1a1a1a;
+        color: #ffffff;
+        padding: 16px 0px;
+        outline: none;
+        border: none;
+        margin: 10px 0px;
+        border-radius: 4px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .registration-container {
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .registration-btn {
+          width: 100%;
+          background: #ffffff;
+          box-shadow: 0px 1px 2px #0000000d;
+          border: 1px solid #ebe9e9;
+          border-radius: 4px;
+          padding: 15px 0px;
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: -5px;
+          color: #de0322;
+          outline: none;
+          border: none;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .login-options {
+          display: flex;
+          min-width: 280px;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin-top: 15px;
+          .continue {
+            font-size: 14px;
+            color: #6e6e6e;
+          }
+          .google-image {
+            width: 20%;
+            justify-content: space-around;
+            display: flex;
+          }
+          .google-img {
+            width: 18px;
+            height: 18px;
+          }
+          .google {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: -0.13px;
+            color: #6e6e6e;
+            padding-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+.MuiFormControl-rootMuiTextField-root {
+  border: 2px solid;
+  margin: 10px 0px;
+}

@@ -1,0 +1,150 @@
+.new-password-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: #1a1a1a67;
+    // backdrop-filter: blur(3px);
+    &:hover {
+      cursor: pointer;
+    }
+  
+    .MuiFormControl-root {
+      margin: 10px 0px;
+      background: #fcfafa;
+      border: 2px solid #de032221;
+      border-radius: 5px;
+      width: 100%;
+    }
+  
+    .MuiInput-underline:before {
+      position: absolute;
+      border-bottom: none;
+    }
+  
+    .MuiInput-underline:hover:not(.Mui-disabled):before {
+      border-bottom: none;
+    }
+    .MuiInput-underline:after {
+      border-bottom: none;
+      position: absolute;
+    }
+  
+    .MuiFormLabel-root {
+      padding-left: 10px;
+      font-size: 12px;
+      letter-spacing: -0.11px;
+      color: #918888;
+    }
+  
+    .MuiFormLabel-root.Mui-focused {
+      font-size: 12px;
+      letter-spacing: -0.11px;
+      color: #918888;
+    }
+    .MuiInputBase-root {
+      height: 30px;
+    }
+  
+    .PrivateSwitchBase-root-1 {
+      padding: 0px;
+    }
+  
+    .MuiInputBase-input:invalid {
+      box-shadow: none;
+      padding-left: 10px;
+    }
+    .MuiInputBase-input {
+      padding-left: 10px;
+      font-size: 14px;
+    }
+    ::placeholder {
+      font-size: 14px;
+      letter-spacing: -0.14px;
+      color: #1a1a1a;
+    }
+    .MuiFormControlLabel-root {
+      margin: 0px;
+    }
+    .new-password-container {
+      width: 28%;
+      margin: auto auto;
+      min-width: 320px;
+      .new-password-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 320px;
+        .test {
+          padding: 40px 30px;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          flex-direction: column;
+          min-width: 320px;
+          width: 100%;
+          background: #fcfafa;
+          box-shadow: 0px 2px 4px #00000019;
+          border-radius: 4px;
+          border-bottom: 5px solid #de0322;
+          .new-password-div {
+            position: relative;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            .new-password {
+              // border-bottom: 2px solid;
+              padding-bottom: 5px;
+              font-size: 24px;
+              font-weight: 600;
+              letter-spacing: -0.24px;
+              color: #1a1a1a;
+            }
+            hr {
+              position: absolute;
+              background: #DE0322 0% 0% no-repeat padding-box;
+              border-radius: 1px;
+              width: 13%;
+              bottom: -12px;
+              height: 3px;
+            }
+            // .close-img {
+            // }
+          }
+          .enter-pass {
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: -0.14px;
+            color: #1a1a1a;
+            margin-top: 15%;
+          }
+          .submit-btn {
+            width: 100%;
+            background: #1a1a1a;
+            color: #ffffff;
+            padding: 16px 0px;
+            outline: none;
+            border: none;
+            margin-top: 10px;
+            border-radius: 4px;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+          .after-click {
+            font-size: 14px;
+            letter-spacing: -0.14px;
+            color: #6e6e6e;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .MuiFormControl-rootMuiTextField-root {
+    border: 2px solid;
+    margin: 10px 0px;
+  }
+  

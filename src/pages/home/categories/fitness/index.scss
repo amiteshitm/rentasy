@@ -1,0 +1,595 @@
+@import "../../../../styles/style-variables.scss";
+
+.listing-page-container {
+  width: 100%;
+  height: 100%;
+  background: #fcfafa 0% 0% no-repeat padding-box;
+  .listing-page-details {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px #00000019;
+    // width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 15px 10px 0px 10px;
+    .listing-page-details-content {
+      max-width: 1170px;
+      .catagories-div {
+        width: 100%;
+        min-width: 350px;
+        padding: 10px 0px;
+        align-items: baseline;
+        display: flex;
+        flex-wrap: wrap;
+        .home {
+          color: #6e6e6e;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .greater-img {
+          margin: 0px 5px;
+        }
+      }
+      .sofa-order-container {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 1170px;
+        justify-content: space-between;
+        .sofa-img-container {
+          width: 54%;
+          min-width: 330px;
+          .user-image-div {
+            width: 100%;
+            min-width: 320px;
+            .userimage-img {
+              width: 100%;
+            }
+          }
+          .sofa-image-div {
+            display: flex;
+            width: 100%;
+            min-width: 325px;
+            justify-content: space-between;
+            .different-sofa {
+              width: 80%;
+              // width: 70%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              .sofa-img {
+                width: 22%;
+              }
+            }
+          }
+          .btn-container {
+            justify-content: space-around;
+            width: 100%;
+            display: flex;
+            min-width: 325px;
+            flex-wrap: wrap;
+            margin-top: 10%;
+            .buynow-btn {
+              width: 40%;
+              outline: none;
+              background: #de0322;
+              box-shadow: 0px 3px 6px #00000029;
+              border: 1px solid #de0322;
+              border-radius: 4px;
+              padding: 16px 0px;
+              color: #ffffff;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+            .addcart-btn {
+              width: 40%;
+              background: #1a1a1a;
+              box-shadow: 0px 3px 6px #00000029;
+              border-radius: 4px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-width: 150px;
+              outline: none;
+              &:hover {
+                cursor: pointer;
+              }
+              .addcart {
+                padding: 16px 5px;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+
+        .american-sofa-details-container {
+          width: 42%;
+          min-width: 325px;
+          .sofa-name-details-container {
+            width: 100%;
+            min-width: 300px;
+            display: flex;
+            .sofa-details-container {
+              width: 85%;
+              .review-rating {
+                flex-wrap: wrap;
+                display: flex;
+                width: 28%;
+                justify-content: space-between;
+                min-width: 117px;
+                margin: 10px 0px;
+                .rating-content {
+                  width: 26%;
+                  display: flex;
+                  align-items: center;
+                  background: #de0322 0% 0% no-repeat padding-box;
+                  border-radius: 3px;
+                  padding: 0px 2px;
+                  .rating {
+                    font-size: 12px;
+                    color: #ffffff;
+                    font-weight: $fw-bold;
+                    padding: 0px 2px;
+                  }
+                }
+              }
+              .location-details {
+                .location-address {
+                  display: flex;
+                  flex-wrap: wrap;
+                  width: 78%;
+                  min-width: 325px;
+                }
+                .location-img {
+                  width: 24px;
+                  height: 24px;
+                }
+                .available {
+                  width: 25%;
+                  text-align: center;
+                  padding: 1px 5px;
+                  font-weight: 600;
+                  font-size: 14px;
+                  letter-spacing: -0.14px;
+                  background: #1caf24;
+                  border-radius: 10px;
+                  opacity: 0.3;
+                  margin: 15px 0px;
+                  outline: none;
+                  border: none;
+                }
+              }
+            }
+            .heart-share-img {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              align-items: center;
+              margin-top: 15px;
+              .heartlight-img {
+                margin-bottom: 10px;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
+              .share-img {
+                margin-top: 10px;
+              }
+            }
+          }
+          .cost-deatils-container {
+            width: 100%;
+            box-sizing: border-box;
+            min-width: 325px;
+            background: #ffffff00 0% 0% no-repeat padding-box;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            padding: 10px 0px 10px 0px;
+            .cost-container {
+              display: flex;
+              flex-wrap: wrap;
+              width: 100%;
+              justify-content: space-around;
+              .rent-div {
+                h3 {
+                  margin: 0px;
+                }
+              }
+              .dollar-div {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+              }
+              .deposit-cost {
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-right: 2px solid #cccccc;
+                border-left: 2px solid #cccccc;
+                padding: 5px 8px;
+                h3 {
+                  margin: 0px;
+                }
+              }
+            }
+          }
+          .location-container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .location-div {
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+              border-bottom: 2px solid #de032222;
+              .location {
+                display: flex;
+                flex-wrap: wrap;
+              }
+              .set-location {
+                font-size: 13px;
+                letter-spacing: -0.13px;
+                color: #de0322;
+              }
+            }
+          }
+          .other-details-container {
+            width: 100%;
+            min-width: 325px;
+            flex-wrap: wrap;
+            padding: 15px 0px;
+            border-top: 2px solid #7070703e;
+            border-bottom: 2px solid #7070703e;
+            .details-content {
+              width: 55%;
+              display: flex;
+              flex-wrap: wrap;
+              min-width: 250px;
+              flex-direction: column;
+              .minimum-rent-div {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                min-width: 250px;
+                justify-content: space-between;
+                padding: 5px 0px;
+              }
+            }
+          }
+          .report-chat-container, .flag-report-chat-container {
+            width: 100%;
+            flex-wrap: wrap;
+            min-width: 350px;
+            padding: 15px 0px;
+            .report-chat-div {
+              padding: 10px 15px;
+              width: 75%;
+              min-width: 300px;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            }
+          }
+          .flag-report-chat-container {
+            border-top: 2px solid #7070703e;
+            border-bottom: 2px solid #7070703e;
+            padding: 10px 0px;
+          }
+          .global-rating-details {
+            width: 38%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            min-width: 185px;
+            margin: 10px 0px;
+            .rating {
+              display: flex;
+              flex-wrap: wrap;
+            }
+          }
+          .customer-review-details {
+            position: relative;
+            display: flex;
+            width: 100%;
+            padding: 5px 0px;
+            .profile-img {
+              width: 30px;
+              height: 30px;
+              padding: 3px;
+              border: 2px solid;
+              border-radius: 18px;
+            }
+            .customer-name-details {
+              width: 100%;
+              padding-left: 10px;
+              .test {
+                width: 88%;
+                display: flex;
+                flex-wrap: wrap;
+                .rating {
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-items: center;
+                  width: 36%;
+                  h4 {
+                    font-weight: 400;
+                    font-size: 14px;
+                    letter-spacing: -0.14px;
+                    color: #1a1a1a;
+                    margin: 0px;
+                    margin-left: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .choice-furniture-details {
+    width: 100%;
+    max-width: 1195px;
+    margin: 0px auto;
+    margin-top: 1%;
+    background: #fcfafa 0% 0% no-repeat padding-box;
+    .choice-container {
+      width: 100%;
+      padding-top: 15px;
+      .check-explore-container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        hr {
+          position: absolute;
+          background: #de0322 0% 0% no-repeat padding-box;
+          border-radius: 1px;
+          width: 4.5%;
+          bottom: -13px;
+          height: 2px;
+          left: 5%;
+        }
+        .check-div {
+          font-size: $umm-font;
+          font-weight: $fw-bold;
+          letter-spacing: -0.17px;
+          color: #1a1a1a;
+        }
+      }
+      .sofa-variety-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3%;
+        position: relative;
+        .sofa-details-container {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          min-width: 350px;
+          padding-top: 15px;
+          justify-content: space-between;
+          .sofa-details-content {
+            display: flex;
+            flex-wrap: wrap;
+            background: #ffffff 0% 0% no-repeat padding-box;
+            box-shadow: 0px 2px 4px #00000010;
+            border-radius: 4px;
+            min-width: 215px;
+            width: 16%;
+            padding: 8px;
+            margin: 0px 11px;
+            margin-top: 10px;
+            .sofa-details {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              .sofa-fav-img {
+                position: relative;
+                width: 100%;
+                min-width: 58px;
+                box-shadow: 0px 2px 3px #91888817;
+                border-radius: 5px;
+                .sofa-img {
+                  width: 75%;
+                }
+                .white-circle-img {
+                  width: 38px;
+                  height: 38px;
+                  position: absolute;
+                  right: 0px;
+                  top: 0px;
+                }
+                .heartlight-img {
+                  width: 19px;
+                  height: 18px;
+                  position: absolute;
+                  right: 10px;
+                  top: 10px;
+                  &:hover {
+                    cursor: pointer;
+                  }
+                }
+              }
+              .sofa-brand-name {
+                .sofa-brand {
+                  font-size: $xmm-font;
+                  letter-spacing: -0.14px;
+                  color: #1a1a1a;
+                }
+
+                .review-rating {
+                  flex-wrap: wrap;
+                  display: flex;
+                  width: 28%;
+                  justify-content: space-between;
+                  min-width: 117px;
+                  margin: 10px 0px;
+                  .rating-content {
+                    width: 26%;
+                    display: flex;
+                    align-items: center;
+                    background: #de0322 0% 0% no-repeat padding-box;
+                    border-radius: 3px;
+                    padding: 0px 2px;
+                    .rating {
+                      font-size: 12px;
+                      color: #ffffff;
+                      font-weight: $fw-bold;
+                      padding: 0px 2px;
+                    }
+                  }
+                  .owner-name {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #918888;
+                    margin-left: 5px;
+                    margin: 0px;
+                  }
+                }
+                .rent-details {
+                  .rent {
+                    font-size: $xmm-font;
+                    letter-spacing: -0.13px;
+                    color: #1a1a1a;
+                    opacity: 0.85;
+                  }
+                  .rent-per-day {
+                    font-size: 14px;
+                    font-weight: $fw-bold;
+                    letter-spacing: -0.14px;
+                    color: #1a1a1a;
+                    padding-left: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottom-details-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    .bottom-details-content {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0px auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 20px;
+      justify-content: space-between;
+      .about-container {
+        width: 15%;
+      }
+      .about {
+        font-size: $xmm-font;
+        font-weight: $fw-bold;
+        letter-spacing: 0.39px;
+        color: #ffffff;
+        text-transform: uppercase;
+        opacity: 0.7;
+      }
+      p {
+        font-size: $xmm-font;
+        letter-spacing: -0.13px;
+        color: #ffffff;
+      }
+      .address-container {
+        width: 25%;
+        letter-spacing: -0.13px;
+        font-size: $xmm-font;
+        color: #ffffff;
+        // .office-address {
+        // }
+      }
+    }
+  }
+}
+
+.min-rental,
+.rent-price,
+.deposit,
+.love-sofa,
+.customer-name,
+.dollar,
+.global-rating,
+.l-sofa,
+.home {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  color: #1a1a1a;
+  margin: 0px;
+}
+.rent-price {
+  font-weight: 500;
+}
+.owner-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #918888;
+  margin-left: 5px;
+  margin: 0px;
+}
+.deposit {
+  color: #6e6e6e;
+}
+
+.other-details {
+  font-size: 18px;
+  color: #1a1a1a;
+  opacity: 0.85;
+}
+.customer-review {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  opacity: 1;
+  margin: 10px 0px;
+}
+
+.description-para {
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  color: #1a1a1a;
+}
+
+.reviewed {
+  font-size: 13px;
+  letter-spacing: -0.13px;
+  color: #6e6e6e;
+}
+.global-rating {
+  margin-left: 5px;
+}
+
+.report-div, .explore-more-div {
+  background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #918888;
+    border-radius: 19px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -0.13px;
+    color: #de0322;
+    outline: none;
+    &:hover {
+      background: #de032214;
+      border: 1px solid #de032267;
+    }
+}

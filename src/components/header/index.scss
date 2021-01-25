@@ -1,0 +1,181 @@
+.header {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000015;
+  backdrop-filter: blur(30px);
+  // -webkit-backdrop-filter: blur(30px);
+  height: 65px;
+  .site-branding {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 2px 0px #00000015;
+    // backdrop-filter: blur(30px);
+    // border: 2px solid;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    .renteasy-select-content {
+      width: 25%;
+      margin-right: 10px;
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      // .renteasy-img {
+      // }
+      .select-container {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        &:hover {
+          cursor: pointer;
+        }
+        // .select-type {
+        //   font-size: 12px;
+        //   letter-spacing: -0.12px;
+        //   color: #918888;
+        //   h4 {margin: 0;}
+        // }
+        // select {
+        //   border: none;
+        //   outline: none;
+        //   letter-spacing: -0.14px;
+        //   color: #1a1a1a;
+        //   font-size: 14px;
+        //   font-weight: 600;
+        // }
+        .select-type {
+          font-size: 12px;
+          letter-spacing: -0.12px;
+          color: #918888;
+        }
+        .rental_select {
+          display: flex;
+          align-items: center;
+          padding-top: 5px;
+          h4 {
+            margin: 0px;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.14px;
+            color: #1A1A1A;
+            margin-right: 5px;
+          }
+          .down_arrow_img {
+            width: 11px;
+            height: 6px;
+          }
+          .up_arrow_img {
+            width: 11px;
+            height: 6px;
+            transform:rotate(180deg);
+          }
+        }
+      }
+    }
+    .input-container {
+      display: flex;
+      width: 35%;
+      position: relative;
+      margin: 0px 10px;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .search-img {
+        position: absolute;
+        left: 14px;
+        width: 14px;
+        height: 14px;
+      }
+      input {
+        width: 100%;
+        height: 35px;
+        outline: none;
+        padding-left: 8%;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border: 1px solid #9188882e;
+        border-radius: 5px;
+        &:hover {
+          cursor: pointer;
+        }
+        ::placeholder {
+          font-size: 14px;
+          color: #918888;
+        }
+      }
+    }
+    .location-container {
+      margin: 0px 5px;
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: space-between; */
+      align-items: center;
+      width: 9%;
+      .location-img {
+        width: 18px;
+        height: 18px;
+      }
+      .location-name {
+        font-size: 14px;
+        letter-spacing: -0.14px;
+        color: #1a1a1a;
+        margin: 0px 5px;
+      }
+      .downarrow-img {
+        width: 11px;
+        height: 6px;
+      }
+    }
+    .icons-container {
+      display: flex;
+      align-items: center;
+      width: 15%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .heart-img {
+        width: 19px;
+        height: 18px;
+      }
+      .notification-img {
+        width: 19px;
+        height: 20px;
+      }
+      .cart-img {
+        width: 21px;
+        height: 21px;
+      }
+    }
+    .login-register-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.14px;
+      color: #1a1a1a;
+      margin-right: 10px;
+      margin-top: 20px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .loggedIn {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 22px;
+      letter-spacing: -0.14px;
+      margin-right: 10px;
+      color: #1a1a1a;
+      margin-left: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

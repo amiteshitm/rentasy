@@ -1,0 +1,482 @@
+@import "../../../styles/style-variables.scss";
+
+.rentals-page {
+  .renteasyimage-page {
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 5px;
+    .renteasyimage-img {
+      width: 100%;
+      box-shadow: 0px 2px 0px #91888817;
+      border-radius: 10px;
+    }
+  }
+  .browser-catagory-see {
+    display: flex;
+    max-width: 1170px;
+    margin: auto 0px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 14px auto;
+    .browser-catagory {
+      font-size: $umm-font;
+      font-weight: $fw-bold;
+      letter-spacing: -0.17px;
+      color: #1a1a1a;
+    }
+    .see-more {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #918888;
+      border-radius: 19px;
+      font-size: $xmm-font;
+      font-weight: $fw-bold;
+    cursor: pointer;
+      letter-spacing: -0.13px;
+      color: #de0322;
+      padding: 5px 17px;
+      &:hover {
+        background: #de032214 0% 0% no-repeat padding-box;
+        border: 1px solid #de032267;
+        border-radius: 19px;
+      }
+    }
+  }
+  .items-container {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-bottom: 15px;
+    .items-name {
+      align-items: center;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #0000000a;
+      border-radius: 5px;
+      min-width: 117px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 10px 0px;
+      margin-bottom: 10px;
+      &:hover {
+        background: #fff8f9 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000019;
+        border: 1px solid #de0322;
+        border-radius: 5px;
+        outline: none;
+      }
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    .college-books {
+      font-size: $xmm-font;
+      color: #1a1a1a;
+    }
+  }
+  .choice-container {
+    width: 100%;
+    background: linear-gradient(#ffffff 30%, #fdebed 70%);
+    padding-top: 15px;
+    .check-explore-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 1170px;
+      margin: 0px auto;
+      padding-top: 15px;
+      .check-div {
+        font-size: $umm-font;
+        font-weight: $fw-bold;
+        letter-spacing: -0.17px;
+        color: #1a1a1a;
+      }
+      .explore-more-div {
+        background: #ffffff;
+        border: 1px solid #918888;
+        border-radius: 19px;
+        padding: 6px 9px;
+        font-weight: $fw-bold;
+        font-size: $xmm-font;
+        outline: none;
+        letter-spacing: -0.13px;
+        color: #de0322;
+      }
+    }
+    .sofa-variety-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 350px;
+      padding-bottom: 6%;
+      position: relative;
+      .icon {
+        position: absolute;
+        bottom: 10px;
+        width: 8%;
+        right: 7%;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        .forwarcircle-img {
+          margin-left: 7px;
+        }
+      }
+      .sofa-details-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-width: 370px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 15px;
+        .sofa-details-content {
+          display: flex;
+          flex-wrap: wrap;
+          background: #ffffff 0% 0% no-repeat padding-box;
+          box-shadow: 0px 2px 4px #00000010;
+          border-radius: 4px;
+          min-width: 215px;
+          width: 21%;
+          padding: 8px;
+          margin: 0px 11px;
+          margin-top: 10px;
+          .sofa-details {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .sofa-fav-img {
+              position: relative;
+              width: 100%;
+              min-width: 58px;
+              .sofa-img {
+                width: 75%;
+                // width: 99%;
+              }
+              .white-circle-img {
+                width: 38px;
+                height: 38px;
+                position: absolute;
+                right: 0px;
+                top: 0px;
+              }
+              .heartlight-img {
+                width: 19px;
+                height: 18px;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                &:hover {
+                  cursor: pointer;
+                }
+              }
+            }
+            .sofa-brand-name {
+              .sofa-brand {
+                font-size: $xmm-font;
+                letter-spacing: -0.14px;
+                color: #1a1a1a;
+              }
+             
+              .review-rating {
+                flex-wrap: wrap;
+                display: flex;
+                width: 28%;
+                justify-content: space-between;
+                min-width: 117px;
+                margin: 10px 0px;
+                .rating-content {
+                  width: 26%;
+                  display: flex;
+                  align-items: center;
+                  background: #de0322 0% 0% no-repeat padding-box;
+                  border-radius: 3px;
+                  padding: 0px 2px;
+                  .rating {
+                    font-size: 12px;
+                    color: #ffffff;
+                    font-weight: $fw-bold;
+                    padding: 0px 2px;
+                  }
+                }
+                .owner-name {
+                  font-weight: 500;
+                  font-size: 14px;
+                  color: #918888;
+                  margin-left: 5px;
+                  margin: 0px;
+                }
+              }
+              .rent-details {
+                .rent {
+                  font-size: $xmm-font;
+                  letter-spacing: -0.13px;
+                  color: #1a1a1a;
+                  opacity: 0.85;
+                }
+                .rent-per-day {
+                  font-size: 14px;
+                  font-weight: $fw-bold;
+                  letter-spacing: -0.14px;
+                  color: #1a1a1a;
+                  padding-left: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .renteasy-choice-container {
+    width: 100%;
+    padding-top: 15px;
+    .why {
+      padding-top: 15px;
+      font-size: $xxxl-font;
+      font-weight: $fw-bold;
+      letter-spacing: -0.24px;
+      color: #1a1a1a;
+      width: 10%;
+      margin-left: 11%;
+    }
+    .available-renteasy-on {
+      min-width: 320px;
+      margin-top: 40%;
+      height: 60vh;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      background: #f9dee1;
+      .available-renteasy {
+        position: relative;
+        width: 100%;
+        max-width: 1170px;
+        margin: 0px auto;
+        .available-on {
+          width: 30%;
+          display: flex;
+          height: 100%;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          .logo-app {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            height: 30vh;
+            flex-direction: column;
+            .renteasylogo-img {
+              width: 90px;
+              height: 79px;
+            }
+            .app-store {
+              font-size: $xxxl-font;
+              font-weight: $fw-bold;
+              letter-spacing: -0.24px;
+              color: #1a1a1a;
+            }
+          }
+        }
+        .download {
+          width: 35%;
+          min-width: 110px;
+          background: #1a1a1a;
+          color: #ffffff;
+          padding: 10px 0px;
+        }
+        .mobile-renteasy-img {
+          width: 418px;
+          height: 815px;
+          position: absolute;
+          top: -32%;
+          right: 0px;
+        }
+      }
+    }
+  }
+  .users-review-container {
+    background: #fcfafa;
+    width: 100%;
+    height: 60vh;
+    .users-review-content {
+      background: #ffffff;
+      // width: 100%;
+      margin-top: 15%;
+      height: 55vh;
+      .users-review {
+        width: 100%;
+        max-width: 1170px;
+        margin: 0px auto;
+        height: 50vh;
+        padding-top: 20px;
+        .love-by-users {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          margin: 15px 0px;
+          .users {
+            width: 10%;
+            font-size: $xxxl-font;
+            font-weight: $fw-bold;
+            letter-spacing: -0.24px;
+            color: #de0322;
+          }
+          .icon {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100px;
+          }
+        }
+        .users-quotation-container {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          min-width: 320px;
+          justify-content: space-between;
+          height: 70%;
+          .users-quotation-content {
+            width: 48%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            .quotation-img {
+              padding-bottom: 10px;
+            }
+            p {
+              text-align: left;
+              font-size: 16px;
+              font-style: italic;
+              letter-spacing: -0.15px;
+              color: #1a1a1a;
+              margin: 0px;
+              padding: 10px 0px;
+            }
+            .users-details {
+              align-items: center;
+              width: 25%;
+              display: flex;
+              min-width: 150px;
+              flex-wrap: wrap;
+              margin-left: auto;
+              .profile-img {
+                width: 35px;
+                height: 35px;
+                border-radius: 20px;
+                padding: 7px;
+                box-shadow: 0px 3px 6px #0000001a;
+              }
+              .details {
+                margin-left: 10px;
+                .name {
+                  font-size: 15px;
+                  font-weight: $fw-bold;
+                  letter-spacing: -0.15px;
+                  color: #1a1a1a;
+                }
+                .user-location {
+                  font-size: $xmm-font;
+                  letter-spacing: -0.13px;
+                  color: #1a1a1a;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottom-details-container {
+    background: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    .bottom-details-content {
+      width: 100%;
+      max-width: 1170px;
+      margin: 0px auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 20px;
+      justify-content: space-between;
+      .about-container {
+        width: 15%;
+      }
+      .about {
+        font-size: $xmm-font;
+        font-weight: $fw-bold;
+        letter-spacing: 0.39px;
+        color: #ffffff;
+        text-transform: uppercase;
+        opacity: 0.7;
+      }
+      p {
+        font-size: $xmm-font;
+        letter-spacing: -0.13px;
+        color: #ffffff;
+      }
+      .address-container {
+        width: 25%;
+        letter-spacing: -0.13px;
+        font-size: $xmm-font;
+        color: #ffffff;
+        // .office-address {
+        // }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1190px) {
+  .rentals-page {
+    width: 100%;
+    height: 100%;
+
+    .browser-catagory {
+      margin-left: 10px;
+    }
+    .see-more {
+      margin-right: 10px;
+    }
+    .why {
+      width: 20%;
+    }
+    .available-on {
+      padding-left: 20px;
+    }
+    .check-div {
+      margin-left: 10px;
+    }
+    .explore-more-div {
+      margin-right: 10px;
+    }
+
+    .users-review-content {
+      padding-left: 20px;
+    }
+
+    .icon {
+      margin-right: 5%;
+    }
+
+    .bottom-details-content {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

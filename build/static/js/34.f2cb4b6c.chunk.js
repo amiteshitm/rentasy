@@ -1,0 +1,2 @@
+(this["webpackJsonpsuper-app"]=this["webpackJsonpsuper-app"]||[]).push([[34],{322:function(e,n,t){},377:function(e,n,t){"use strict";t.r(n);var a=t(0),p=t.n(a);t(322);n.default=function(){return p.a.createElement("div",{className:"container"},"View Profile")}}}]);
+//# sourceMappingURL=34.f2cb4b6c.chunk.js.map

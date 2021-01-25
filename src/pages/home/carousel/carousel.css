@@ -1,0 +1,48 @@
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+button{
+  color: -internal-light-dark(rgb(248, 242, 242), rgb(228, 0, 0));
+}
+
+.slides {
+  position: relative;
+  margin-top: 0px;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+.slick-dots li button{
+  padding: 50px;
+  
+}
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: red;
+}
+.slick-dots li, .slick-dots li button {
+  width: 3px;
+}
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: white!important;
+  color: rgb(255, 150, 150)!important;
+border-radius: 100%;
+background: transparent;
+font-size: 25px;
+backdrop-filter: blur(2px);
+}

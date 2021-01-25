@@ -1,0 +1,78 @@
+@import './colors.scss';
+
+@mixin cta-button {
+    box-sizing: border-box;
+    background-color: $primary-color;
+    color: $white;
+    align-self: center;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: 0px;
+}
+
+@mixin text-box {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid $light-black;
+}
+
+@mixin form-control {
+    margin: 10px 0px;
+}
+
+
+@mixin loader-icon {
+    background: url(/assets/loader.svg);
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    margin-left: 0.6rem;
+    background-repeat: no-repeat;
+    display: none;
+    &.active {
+      display: inline-flex;
+      animation: animationRotate 1.4s linear infinite;
+    }
+}
+
+@keyframes animationRotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+ /* Add Animation */
+ @-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  } 
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
